@@ -6,11 +6,30 @@ package ex;
  * Date: 2016/09/26
  * Author: 1050210XX 周永振老師
  */
-
-public class ex02_1050210XX {
+import java.util.Scanner;
+public class ex02_105021118 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scn = new Scanner(System.in);
+		int X1=0;
+		int X2=scn.nextInt( );
+		int Y1=0;
+		int Y2=scn.nextInt( );
+		
+		double d=Math.sqrt(Math.pow(X2-X1,2) + Math.pow(Y2-Y1,2));
+		System.out.println(d);
+		
+		if (d<=100){
+			System.out.println("yes");
+		}else{
+			System.out.println("no");
+				
+		}
+		
+		
+	  
+	  
 
 	}
 

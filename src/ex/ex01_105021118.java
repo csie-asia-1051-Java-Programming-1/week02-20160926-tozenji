@@ -7,10 +7,27 @@ package ex;
  * Author: 1050210XX 周永振老師
  */
 
-public class ex01_1050210XX {
+public class ex01_105021118 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		float p = 0.5f;
+		float n = 1522;
+		float d = 0;
+		
+		if(n<=600){
+			d = n*p;
+		}else{
+				if (n<=1200){
+		    d = n*p*0.9f;
+		}else{
+		    d = n*p*0.79f;	
+			}
+		}
+		
+		
+		System.out.println(d);
 
 	}
 
